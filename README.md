@@ -4,6 +4,8 @@
 
 Setting the environment varaible `CHANCE_SEED` will allow to re-run your tests with the same values based on the given seed.
 
+![pull_request_verify](https://github.com/TractorZoom/chance-the-wrapper/workflows/pull_request_verify/badge.svg) ![publish](https://github.com/TractorZoom/chance-the-wrapper/workflows/publish/badge.svg)
+
 ## Custom Chance Methods
 
 ##### Method: `object()`
