@@ -12,7 +12,7 @@ const initChanceWithSeed = () => {
 
     const chance = new Chance(process.env.CHANCE_SEED);
 
-    chance.mixin({object: () => ({key: chance.hash()})});
+    chance.mixin({ object: () => ({ key: chance.hash() }) });
 
     return chance;
 };
