@@ -4,7 +4,7 @@ import chance from '../../src/chance-the-wrapper';
 
 it('should have a custom chance.object() property', () => {
     // given
-    const expectedObj = {key: 'f01cbd08d2bb5f6e32a03845251e87241696452b'};
+    const expectedObj = { key: 'f01cbd08d2bb5f6e32a03845251e87241696452b' };
 
     // when
     const obj = chance.object();
