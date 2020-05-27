@@ -33,7 +33,7 @@
         "semantic-release": "17.0.7"
     },
     "dependencies": {
-        "chance": "1.1.4"
+        "chance": "1.1.6"
     },
     "config": {
         "commitizen": {
