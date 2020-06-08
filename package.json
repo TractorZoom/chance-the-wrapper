@@ -39,5 +39,21 @@
         "commitizen": {
             "path": "cz-conventional-changelog"
         }
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TractorZoom/chance-the-wrapper.git"
+    },
+    "homepage": "https://github.com/TractorZoom/chance-the-wrapper",
+    "bugs": {
+        "url": "https://github.com/TractorZoom/chance-the-wrapper/issues"
+    },
+    "keywords": [
+        "chance",
+        "dice",
+        "generate",
+        "random",
+        "test",
+        "testing"
+    ]
 }
