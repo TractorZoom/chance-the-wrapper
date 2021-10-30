@@ -1,6 +1,6 @@
 {
     "name": "@tractorzoom/chance-the-wrapper",
-    "version": "2.1.92",
+    "version": "2.1.93",
     "description": "Wrapper around the chance library to add extra features",
     "main": "lib/index.js",
     "author": "@TractorZoom",
