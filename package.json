@@ -18,8 +18,8 @@
     },
     "devDependencies": {
         "@babel/cli": "7.16.8",
-        "@babel/core": "7.16.7",
-        "@babel/preset-env": "7.16.8",
+        "@babel/core": "7.16.10",
+        "@babel/preset-env": "7.16.10",
         "@commitlint/cli": "12.1.4",
         "@commitlint/config-conventional": "12.1.4",
         "@semantic-release/changelog": "5.0.1",
