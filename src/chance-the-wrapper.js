@@ -17,4 +17,6 @@ const initChanceWithSeed = () => {
     return chance;
 };
 
-export default chance = initChanceWithSeed();
+const chance = initChanceWithSeed();
+
+export default chance;
