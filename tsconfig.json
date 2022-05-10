@@ -9,6 +9,7 @@
         "noImplicitAny": false,
         "target": "es2015",
         "outDir": "./lib",
-        "declaration": true
+        "declaration": true,
+        "allowJs": false
     }
 }

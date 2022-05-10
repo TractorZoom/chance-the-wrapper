@@ -14,7 +14,7 @@ const initChanceWithSeed = () => {
 
     chance.mixin({ object: () => ({ key: chance.hash() }) });
 
-    return chance;
+    return chance as Chance.Chance & { object: () => { key: string } };
 };
 
 const chance = initChanceWithSeed();
