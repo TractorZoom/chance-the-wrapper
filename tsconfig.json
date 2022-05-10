@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@src/*": ["src/*"]
+        },
+        "alwaysStrict": true,
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "target": "es2015",
+        "outDir": "./lib",
+        "declaration": true
+    }
+}
