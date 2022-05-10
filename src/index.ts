@@ -1,4 +1,4 @@
-import Chance from 'chance';
+import * as Chance from 'chance';
 
 const initChanceWithSeed = () => {
     if (!process.env.CHANCE_SEED) {
