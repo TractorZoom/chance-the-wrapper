@@ -3,6 +3,7 @@
     "version": "2.1.126",
     "description": "Wrapper around the chance library to add extra features",
     "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "author": "@TractorZoom",
     "license": "MIT",
     "engines": {
