@@ -1,4 +1,5 @@
 module.exports = {
+    branches: ['master'],
     pkgRoot: 'lib',
     plugins: [
         [
