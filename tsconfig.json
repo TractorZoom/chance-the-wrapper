@@ -12,5 +12,5 @@
         "declaration": true,
         "allowJs": false
     },
-    "exclude": ["./build/**/*", "./node_modules/**/*", "./__tests__"]
+    "exclude": ["./build/**/*", "./node_modules/**/*", "./__tests__", "./lib/**/*"]
 }
