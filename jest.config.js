@@ -17,6 +17,5 @@ module.exports = {
     restoreMocks: true,
     transform: {
         '^.+\\.(ts|tsx)?$': 'ts-jest',
-        '^.+\\.(js|jsx)$': 'babel-jest',
     },
 };
