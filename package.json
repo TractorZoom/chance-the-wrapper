@@ -1,57 +1,57 @@
 {
-    "name": "@tractorzoom/chance-the-wrapper",
-    "version": "2.1.126",
-    "description": "Wrapper around the chance library to add extra features",
-    "main": "index.js",
-    "types": "index.d.ts",
-    "author": "@TractorZoom",
-    "license": "MIT",
-    "scripts": {
-        "build": "rimraf lib && tsc && cp package.json lib",
-        "coverage": "jest --coverage",
-        "test": "jest",
-        "lint": "yarn biome lint ./src",
-        "prepare": "husky install"
-    },
-    "devDependencies": {
-        "@commitlint/cli": "18.4.4",
-        "@commitlint/config-conventional": "18.4.4",
-        "@semantic-release/changelog": "6.0.3",
-        "@semantic-release/git": "10.0.1",
-        "@semantic-release/release-notes-generator": "12.1.0",
-        "@types/jest": "29.5.11",
-        "biome": "0.3.3",
-        "husky": "8.0.3",
-        "jest": "29.7.0",
-        "lint-staged": "15.2.0",
-        "rimraf": "5.0.5",
-        "semantic-release": "23.0.0",
-        "ts-jest": "29.1.1",
-        "typescript": "5.3.3"
-    },
-    "dependencies": {
-        "@types/chance": "1.1.6",
-        "chance": "1.1.11"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/TractorZoom/chance-the-wrapper.git"
-    },
-    "homepage": "https://github.com/TractorZoom/chance-the-wrapper",
-    "bugs": {
-        "url": "https://github.com/TractorZoom/chance-the-wrapper/issues"
-    },
-    "lint-staged": {
-        "{src/**/*.ts,__tests__/**/*.spec.(js|ts)}": [
-            "npx biome check --apply"
-        ]
-    },
-    "keywords": [
-        "chance",
-        "dice",
-        "generate",
-        "random",
-        "test",
-        "testing"
-    ]
+	"name": "@tractorzoom/chance-the-wrapper",
+	"version": "2.1.126",
+	"description": "Wrapper around the chance library to add extra features",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"author": "@TractorZoom",
+	"license": "MIT",
+	"scripts": {
+		"build": "rimraf lib && tsc && cp package.json lib",
+		"coverage": "jest --coverage",
+		"test": "jest",
+		"lint": "yarn biome lint ./src",
+		"prepare": "husky install"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.5.2",
+		"@commitlint/cli": "18.4.4",
+		"@commitlint/config-conventional": "18.4.4",
+		"@semantic-release/changelog": "6.0.3",
+		"@semantic-release/git": "10.0.1",
+		"@semantic-release/release-notes-generator": "12.1.0",
+		"@types/jest": "29.5.11",
+		"husky": "8.0.3",
+		"jest": "29.7.0",
+		"lint-staged": "15.2.0",
+		"rimraf": "5.0.5",
+		"semantic-release": "23.0.0",
+		"ts-jest": "29.1.1",
+		"typescript": "5.3.3"
+	},
+	"dependencies": {
+		"@types/chance": "1.1.6",
+		"chance": "1.1.11"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TractorZoom/chance-the-wrapper.git"
+	},
+	"homepage": "https://github.com/TractorZoom/chance-the-wrapper",
+	"bugs": {
+		"url": "https://github.com/TractorZoom/chance-the-wrapper/issues"
+	},
+	"lint-staged": {
+		"{src/**/*.ts,__tests__/**/*.spec.(js|ts)}": [
+			"npx biome check --apply"
+		]
+	},
+	"keywords": [
+		"chance",
+		"dice",
+		"generate",
+		"random",
+		"test",
+		"testing"
+	]
 }
