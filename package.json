@@ -30,7 +30,7 @@
 		"typescript": "5.3.3"
 	},
 	"dependencies": {
-		"@types/chance": "1.1.6",
+		"@types/chance": "1.1.7",
 		"chance": "1.1.12"
 	},
 	"repository": {
